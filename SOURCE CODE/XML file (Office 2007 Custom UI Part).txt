@@ -1,0 +1,18 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+  <ribbon startFromScratch="false">
+    <tabs>
+
+      <tab idMso="TabData">
+        <group id="xlPairC11" label="Add-In" insertAfterMso="GroupDataTools">
+
+          <button id="xlpaircbutton1" label="Paare finden" size="large" 
+		onAction="ToolStartenIcon" image="logoPairC" 
+		screentip="Add-In von Marco Krapf (v1.1)"
+		supertip="Tool zum Vergleichen von zwei Bereichen auf dem Tabellenblatt. Wertpaare in den beiden Bereichen können durch eine Verbindungslinie visualisiert, farblich hervorgehoben und exportiert werden. Werte, die nur in einem der Bereiche vorkommen, können hervorgehoben und exportiert werden."/>
+        
+	 </group>
+      </tab>
+
+    </tabs>
+  </ribbon>
+</customUI>
